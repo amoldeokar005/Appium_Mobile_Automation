@@ -24,6 +24,7 @@ public class FirstTest
         dc.setCapability("appium:deviceName", "emulator-5554");
         dc.setCapability("appium:automationName", "UiAutomator2");
         dc.setCapability("appium:app","A:/Appium/ApiDemos-debug.apk");
+        System.out.println("All capabilities has been added");
 
         driver = new AndroidDriver(new URL(appiumServerUrl), dc);
 
